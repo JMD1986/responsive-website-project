@@ -1,0 +1,216 @@
+a {
+  color: white; }
+
+.nav {
+  font-family: sans-serif;
+  font-size: 14px;
+  height: 26px;
+  display: inline-block; }
+
+.nav .nav1 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #5D646B;
+  display: inline-block; }
+
+.nav .nav2 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #5D646B;
+  display: inline-block;
+  padding-left: 40px; }
+
+.nav .nav3 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
+  display: inline-block;
+  padding-left: 30px; }
+
+.nav .nav4 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #5D646B;
+  display: inline-block;
+  padding-left: 30px; }
+
+header {
+  background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/responsive-site/master/background.jpg);
+  height: 140px;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: sans-serif;
+  font-size: 33px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 3px 0 rgba(0, 0, 0, 0.5); }
+
+header .headertext1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white; }
+
+.prices {
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .prices .dollar-value-personal {
+    height: 190px;
+    background-color: #509151;
+    padding-top: 30px; }
+  .prices .dollar-value-small-business {
+    height: 190px;
+    background-color: #253B70;
+    padding-top: 30px; }
+  .prices .dollar-value-enterprise {
+    height: 190px;
+    background-color: black;
+    padding-top: 30px; }
+  .prices .whatyouget {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 14px;
+    border-left: solid #DDDDDD 1px;
+    border-right: solid #DDDDDD 1px;
+    border-bottom: solid #DDDDDD 1px;
+    height: 30px;
+    background-color: #F7F7F7;
+    color: #546268; }
+  .prices .type {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px; }
+  .prices .monies {
+    font-family: sans-serif;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    font-weight: lighter; }
+  .prices .length {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #A7C8A7;
+    text-align: center; }
+  .prices .choose-button {
+    height: 60px;
+    background-color: white;
+    border-left: solid #DDDDDD 1px;
+    border-right: solid #DDDDDD 1px;
+    border-bottom: solid #DDDDDD 1px;
+    padding-top: 25px;
+    text-align: center; }
+  .prices .choose-button .choose-button-circle {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 20px;
+    border: solid #DDDDDD 1px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 70px; }
+
+.information {
+  padding-bottom: 30px;
+  padding-top: 110px;
+  box-sizing: border-box; }
+  .information .infoboxes {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px; }
+    .information .infoboxes .hook {
+      font-family: sans-serif;
+      font-size: 19px;
+      letter-spacing: 4px;
+      padding-bottom: 27px;
+      display: inline-block; }
+    .information .infoboxes .hook-information {
+      display: inline-block;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 150%;
+      padding-bottom: 60px;
+      color: #4A555C; }
+
+footer {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: gray;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  line-height: 150%;
+  text-align: center; }
+
+@media (min-width: 479px) {
+  header {
+    height: 300px;
+    padding-top: 150px; }
+
+  nav {
+    height: 95px; } }
+@media (min-width: 767px) {
+  .prices {
+    overflow: hidden; }
+
+  .price-guide {
+    width: 33.3%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block; }
+
+  .infoboxes {
+    width: 48%;
+    overflow: hidden;
+    font: sans-serif; }
+    .infoboxes .hook-information {
+      box-sizing: border-box;
+      display: inline-block; }
+      .infoboxes .hook-information .hook {
+        box-sizing: border-box; } }
+@media (min-width: 979px) {
+  header {
+    font-size: 45px;
+    height: 250px; }
+
+  .prices {
+    overflow: hidden;
+    padding-left: 115px;
+    padding-right: 115px; }
+
+  .price-guide {
+    width: 33.3%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  .information {
+    padding-left: 115px;
+    padding-right: 115px;
+    font: sans-serif; }
+    .information .infoboxes {
+      width: 48%;
+      overflow: hidden;
+      display: inline-block;
+      box-sizing: border-box;
+      /*padding-left:115px;
+      padding-right:115px;*/ }
+      .information .infoboxes .hook-information {
+        box-sizing: border-box;
+        display: inline-block;
+        box-sizing: border-box; }
+        .information .infoboxes .hook-information .hook {
+          display: inline-block;
+          box-sizing: border-box; } }
+
+/*# sourceMappingURL=style.css.map */
