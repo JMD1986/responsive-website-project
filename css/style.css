@@ -4,33 +4,32 @@ a {
 .nav {
   font-family: sans-serif;
   font-size: 14px;
-  height: 29px;
-  display: inline-block;
-  padding-top: 6px; }
+  height: 26px;
+  display: inline-block; }
 
 .nav .nav1 {
   font-family: sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   color: #5D646B;
   display: inline-block; }
 
 .nav .nav2 {
   font-family: sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   color: #5D646B;
   display: inline-block;
   padding-left: 40px; }
 
 .nav .nav3 {
   font-family: sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   color: black;
   display: inline-block;
   padding-left: 30px; }
 
 .nav .nav4 {
   font-family: sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   color: #5D646B;
   display: inline-block;
   padding-left: 30px; }
@@ -82,19 +81,19 @@ header .headertext1 {
     color: #546268; }
   .prices .type {
     font-family: sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
     text-align: center;
     letter-spacing: 2px; }
   .prices .monies {
     font-family: sans-serif;
-    font-size: 98px;
+    font-size: 100px;
     color: white;
     text-align: center;
     font-weight: lighter; }
   .prices .length {
     font-family: sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     color: #A7C8A7;
     text-align: center; }
   .prices .choose-button {
@@ -130,9 +129,9 @@ header .headertext1 {
     padding-right: 40px; }
     .information .infoboxes .hook {
       font-family: sans-serif;
-      font-size: 18.5px;
+      font-size: 19px;
       letter-spacing: 4px;
-      padding-bottom: 18px;
+      padding-bottom: 27px;
       display: inline-block; }
     .information .infoboxes .hook-information {
       display: inline-block;
@@ -147,8 +146,8 @@ footer {
   font-size: 16px;
   background-color: black;
   color: gray;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   line-height: 150%;
   text-align: center; }
 
@@ -179,36 +178,39 @@ footer {
       display: inline-block; }
       .infoboxes .hook-information .hook {
         box-sizing: border-box; } }
-header {
-  font-size: 45px;
-  height: 250px; }
+@media (min-width: 979px) {
+  header {
+    font-size: 45px;
+    height: 250px; }
 
-.prices {
-  overflow: hidden;
-  padding-left: 115px;
-  padding-right: 115px; }
-
-.price-guide {
-  width: 33.3%;
-  box-sizing: border-box;
-  padding-left: 10px;
-  padding-right: 10px; }
-
-.information {
-  padding-left: 115px;
-  padding-right: 115px;
-  font: sans-serif; }
-  .information .infoboxes {
-    width: 48%;
+  .prices {
     overflow: hidden;
-    display: inline-block;
-    box-sizing: border-box; }
-    .information .infoboxes .hook-information {
-      box-sizing: border-box;
+    padding-left: 115px;
+    padding-right: 115px; }
+
+  .price-guide {
+    width: 33.3%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  .information {
+    padding-left: 115px;
+    padding-right: 115px;
+    font: sans-serif; }
+    .information .infoboxes {
+      width: 48%;
+      overflow: hidden;
       display: inline-block;
-      box-sizing: border-box; }
-      .information .infoboxes .hook-information .hook {
+      box-sizing: border-box;
+      /*padding-left:115px;
+      padding-right:115px;*/ }
+      .information .infoboxes .hook-information {
+        box-sizing: border-box;
         display: inline-block;
         box-sizing: border-box; }
+        .information .infoboxes .hook-information .hook {
+          display: inline-block;
+          box-sizing: border-box; } }
 
 /*# sourceMappingURL=style.css.map */
